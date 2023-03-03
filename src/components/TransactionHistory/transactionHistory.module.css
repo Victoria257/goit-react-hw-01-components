@@ -1,6 +1,8 @@
 
 .transaction__history {
     border: 1px solid grey;
+    margin: 100px 0;
+
 }
 
 .transaction__head {

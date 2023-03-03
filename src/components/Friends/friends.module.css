@@ -1,9 +1,8 @@
 .friend__list {
 padding: 0;
+margin-bottom: 100px;
 
 }
-
-
 
 .item {
     display: flex;
