@@ -1,0 +1,76 @@
+
+
+.profile {
+    margin: 10px;
+    text-align: center;
+    width: 350px;
+    background-color: white;
+    box-shadow: 0 5px 10px 10px rgb(199, 197, 197);
+}
+
+.description {
+    height: 80%;
+    padding: 40px 0;
+}
+
+.avatar {
+    width: 140px;
+    padding: 10px;
+    border-radius: 50%;
+    border: solid 1px gainsboro;
+}
+
+.name {
+    margin-bottom:10px ;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+
+    color: #111321;
+}
+
+.tag {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 22px;
+    color: grey;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.location {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 22px;
+    color: gray;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.stats {
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+    background-color: rgb(237, 235, 235);
+}
+
+.stats__wrapper {
+    width: calc(100%/3);
+    padding: 20px;
+    border: solid 1px rgb(203, 203, 203);
+}
+
+.label {
+    margin-bottom: 5px;
+    color: gray;
+}
+
+.quantity {
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 44px;
+
+    color: #111321;
+}

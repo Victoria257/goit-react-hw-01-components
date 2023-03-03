@@ -1,0 +1,32 @@
+.statistics {
+  background-color: white;
+    text-align: center;
+}
+
+.title {
+    text-transform: uppercase;
+    padding: 32px;
+    margin: 0;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 44px;
+
+    color: #111321;
+}
+
+.stat__list {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 22px;
+    margin: 0;
+    padding: 0;
+}
+
+.item {
+    border: 1px solid gray;
+    margin: 0;
+    width: 100%;
+}
