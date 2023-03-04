@@ -5,7 +5,7 @@ import items from 'data/transactions.json';
 
 
 import { Profile } from 'components/Profile/Profile';
-import { Statistics } from 'components/Statistics/Statistics.jsx';
+import { Statistics } from 'components/Statistics/Statistics';
 import { FriendList } from 'components/Friends/FriendList';
 import {TransactionHistory} from 'components/TransactionHistory/TransactionHistory'
 
@@ -16,20 +16,9 @@ export const App = () => {
   
   return <div>
 
-        <div>
-      <Profile
-        username={username}
-        tag={tag}
-        location={location}
-        avatar={avatar}
-        stats={stats}
-      />
-    </div>
-    
-       <div>
-      <Statistics
-        title="Upload stats"
-        stats={data}
+    <div>
+      <TransactionHistory
+        items={items}
       />
     </div>
 
@@ -40,11 +29,22 @@ export const App = () => {
     </div>
 
     <div>
-      <TransactionHistory
-        items={items}
+      <Statistics
+        title="Upload stats"
+        stats={data}
       />
     </div>
 
+      <div>
+      <Profile
+        username={username}
+        tag={tag}
+        location={location}
+        avatar={avatar}
+        stats={stats}
+      />
+      </div>
   </div>
 
 };
+
