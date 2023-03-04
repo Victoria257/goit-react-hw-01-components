@@ -28,12 +28,12 @@ export const App = () => {
       />
     </div>
 
-    <div>
+    {/* <div>
       <Statistics
         title="Upload stats"
         stats={data}
       />
-    </div>
+    </div> */}
 
       <div>
       <Profile
