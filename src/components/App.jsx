@@ -5,9 +5,9 @@ import items from 'data/transactions.json';
 
 
 import { Profile } from 'components/Profile/Profile';
-import { Statistics } from 'components/Statistics/Statistics1';
+import { Statistics } from 'components/Statistics/Statistics';
 import { FriendList } from 'components/Friends/FriendList';
-import { TransactionHistory } from 'components/TransactionHistory/TransactionHistory1';
+import { TransactionHistory } from 'components/TransactionHistory/TransactionHistory';
 
 
 
@@ -16,26 +16,7 @@ export const App = () => {
   
   return <div>
 
-    <div>
-      <TransactionHistory
-        items={items}
-      />
-    </div>
-
-    <div>
-      <FriendList
-        friends={friends}
-      />
-    </div>
-
-    <div>
-      <Statistics
-        title="Upload stats"
-        stats={data}
-      />
-    </div>
-
-      <div>
+       <div>
       <Profile
         username={username}
         tag={tag}
@@ -43,7 +24,27 @@ export const App = () => {
         avatar={avatar}
         stats={stats}
       />
-      </div>
+    </div>
+    
+        <div>
+      <Statistics
+        title="Upload stats"
+        stats={data}
+      />
+    </div>
+
+        <div>
+      <FriendList
+        friends={friends}
+      />
+    </div>
+
+    <div>
+      <TransactionHistory
+        items={items}
+      />
+    </div>
+
   </div>
 
 };

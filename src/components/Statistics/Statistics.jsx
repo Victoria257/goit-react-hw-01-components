@@ -1,4 +1,4 @@
-import css from 'components/Statistics/Statistics1.module.css';
+import css from 'components/Statistics/Statistics.module.css';
 import PropTypes from 'prop-types';
 import { getRandomHexColor } from 'components/render-color';
 
